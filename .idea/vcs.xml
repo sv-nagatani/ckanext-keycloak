@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ckan" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ckanext-envvars" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ckanext-harvest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ckanext-sip4d" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../ckanext-spatial" vcs="Git" />
+  </component>
+</project>

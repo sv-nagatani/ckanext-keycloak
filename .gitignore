@@ -1,42 +1,76 @@
-.ropeproject
-node_modules
-bower_components
+# =========================
+# Python / CKAN Extension
+# =========================
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-env/
 build/
-develop-eggs/
 dist/
 sdist/
+develop-eggs/
+eggs/
+.eggs/
 *.egg-info/
-.installed.cfg
 *.egg
+MANIFEST
+.installed.cfg
+pip-wheel-metadata/
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+# Virtual environments
+env/
+venv/
+.venv/
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
+# Test / coverage
 htmlcov/
 .tox/
+.nox/
+.pytest_cache/
 .coverage
-.cache
-nosetests.xml
 coverage.xml
+nosetests.xml
+.cache/
+*.cover
+*.log
 
-# Sphinx documentation
+# Rope (Python refactoring tool)
+.ropeproject/
+
+# =========================
+# Frontend (if used)
+# =========================
+node_modules/
+bower_components/
+
+# =========================
+# IDE / Editor
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Docs build
+# =========================
 docs/_build/
+
+# =========================
+# GitHub (不要なら除外)
+# =========================
+# GitHub Actionsを使わないなら除外
+.github/
+# もし「workflowsだけ除外」したい場合は上の .github/ を消してこれにする
+# .github/workflows/
